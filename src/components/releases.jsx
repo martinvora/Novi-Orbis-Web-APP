@@ -13,6 +13,7 @@ function Releases () {
         <div className="conteiner-grid-main-podcast">
         <iframe width="100%" 
                 height="450" 
+                frameborder="no"
                 title="Novi Orbis - Releases"
                  scrolling="no"   
                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1090900246&color=%231c211a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

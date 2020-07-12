@@ -114,7 +114,7 @@ class App extends Component {
           <footer>
             <div>
               <label htmlFor="Email" >
-                SIGN UP FOR OUR NEWSLETTER !!
+                SIGN UP FOR OUR NEWSLETTER !! &nbsp;&nbsp;
           </label>
               <input
                 placeholder="Enter Your email"
