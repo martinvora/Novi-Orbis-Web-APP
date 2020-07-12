@@ -2,21 +2,20 @@ import React from 'react';
 
 
 
-function Podcast () {
+function Releases () {
    
  
     return (  
         <React.Fragment >
         <main>
-        <div className="tittle-pages">podcast</div>
+        <div className="tittle-pages">releases</div>
         
         <div className="conteiner-grid-main-podcast">
         <iframe width="100%" 
-        height="450" 
-        title="Novi-Orbis-Podcast"
-        scrolling="no"  
-        allow="autoplay" 
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/744793323&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                height="450" 
+                title="Novi Orbis - Releases"
+                 scrolling="no"   
+                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1090900246&color=%231c211a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <div id="contact-us">
                               <h2 className="contact-text">CONTACT US</h2>
                              <br />
@@ -42,4 +41,4 @@ function Podcast () {
       );
 }
 
-export default Podcast;
+export default Releases;

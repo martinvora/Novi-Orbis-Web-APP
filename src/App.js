@@ -6,6 +6,7 @@ import fire from './components/fire';
 import notify from './components/toastify.jsx';
 import Home from './components/home';
 import ScrollToTop from './components/scrollToTop';
+import Releases from './components/releases';
 
 
 
@@ -63,7 +64,11 @@ class App extends Component {
                   <Link to="/" className="btn-nav" onClick={ScrollToTop} > home </Link>
                 </li>
                 <li > 
-                  <Link to="/podcast" className="btn-nav" onClick={ScrollToTop}  > podcast </Link> </li>
+                  <Link to="/podcast" className="btn-nav" onClick={ScrollToTop}  > podcast </Link>
+                   </li>
+                   <li > 
+                  <Link to="/releases" className="btn-nav" onClick={ScrollToTop}  > releases </Link>
+                   </li>
               </ul>
               <a href="https://www.facebook.com/noviorbisrec/">
                 <img
@@ -102,11 +107,14 @@ class App extends Component {
             <Route path='/podcast'>
               <Podcast/>
             </Route>
+            <Route path='/releases'>
+            <Releases/>
+            </Route>
           </Switch>
           <footer>
             <div>
               <label htmlFor="Email" >
-                SIGN UP FOR OUR NEWSLETTER AND GET FREE TRACKS!!!&nbsp;&nbsp;
+                SIGN UP FOR OUR NEWSLETTER !!
           </label>
               <input
                 placeholder="Enter Your email"
