@@ -25,16 +25,16 @@ function Podcast () {
                                ><h3 id="email">Noviorbisrecording@gmail.com</h3></a
                              ><br />
                              <a href="https://www.facebook.com/noviorbisrec/">
-                               <img src="Images/social-icons/fb.png" alt="Link to facebook" />
+                               <img  className="icons"src="Images/social-icons/fb.png" alt="Link to facebook" />
                              </a>
                              <a href="https://www.instagram.com/novi.orbis/">
-                               <img src="Images/social-icons/ig.png" alt="Link to instagram" />
+                               <img className="icons" src="Images/social-icons/ig.png" alt="Link to instagram" />
                              </a>
                              <a href="https://soundcloud.com/novi_orbis">
-                               <img src="Images/social-icons/sc.png" alt="Link to soundcloud" />
+                               <img  className="icons"src="Images/social-icons/sc.png" alt="Link to soundcloud" />
                              </a>
                              <a href="https://www.youtube.com/channel/UCQo0r3pl1yaFZ6rMfaP12Qw">
-                               <img src="Images/social-icons/youtube.png" alt="Link to youtube" />
+                               <img  className="icons"src="Images/social-icons/youtube.png" alt="Link to youtube" />
                              </a>
           </div>
         </div>

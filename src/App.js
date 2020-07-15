@@ -61,7 +61,7 @@ class App extends Component {
               <h1 id="nav-tittle" >NOVI ORBIS</h1>
               <ul className="nav-grid">
                 <li>
-                  <Link to="/" className="btn-nav" onClick={ScrollToTop} > home </Link>
+                  <Link to="/" className="btn-nav" onClick={ScrollToTop}  > home </Link>
                 </li>
                 <li > 
                   <Link to="/podcast" className="btn-nav" onClick={ScrollToTop}  > podcast </Link>

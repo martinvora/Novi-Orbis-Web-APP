@@ -303,9 +303,14 @@
       text-align: center;
       align-content: center;
     }
-  
+    .social-icons {
+      text-decoration: none;
+    }
     #contact-us {
       grid-column: 1;
     }
+    .icons{
+    padding-left: 20px;
+    padding-right: 20px;}
   }
   
