@@ -1,12 +1,20 @@
 import React from 'react';
+import { Parallax } from 'react-parallax';
+
+const spacehd = "Images/spacehd.jpg"
+
 
 function Home () {
     return (
         <React.Fragment>
         <main>
-        <img id="image-spacehd" src="Images/spacehd.jpg" alt="Space" />
+     <Parallax bgImage={spacehd} strength={ 500 }> 
+          <div id="image-spacehd"> </div>
+        </Parallax>  
+       
   
         <div className="conteiner-grid-main">
+         
           <img
             id="logo-content-image"
             src="Images/noblack.jpg"
