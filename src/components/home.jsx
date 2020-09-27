@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax';
 const spacehd = "Images/spacehd.jpg"
 
 
+
 function Home () {
     return (
         <React.Fragment>
