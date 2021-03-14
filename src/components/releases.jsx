@@ -16,7 +16,7 @@ function Releases () {
                 frameborder="no"
                 title="Novi Orbis - Releases"
                  scrolling="no"   
-                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1090900246&color=%231c211a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1226303935&color=%237c3c6c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <div id="contact-us">
                               <h2 className="contact-text">CONTACT US</h2>
                              <br />
