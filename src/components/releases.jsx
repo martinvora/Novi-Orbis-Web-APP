@@ -8,7 +8,7 @@ function Releases () {
     return (  
         <React.Fragment >
         <main>
-        <div className="tittle-pages">releases</div>
+        <div className="tittle-pages">releases s</div>
         
         <div className="conteiner-grid-main-podcast">
         <iframe width="100%" 
