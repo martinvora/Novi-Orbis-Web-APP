@@ -22,10 +22,17 @@ function Home () {
             alt="Novi Orbis Logo"
             />
           <div className="main-content-text">
+          <br></br>
+          <br></br>  
+          <br></br>
+          <br></br>
+          <br></br>
             <h2>NOVI ORBIS</h2>
             <p>
-              Record label owned by 4 guys who live in 2 different <br />
-              parts of the world: Italy and Uruguay <br /><br />
+              
+            
+              Record label owned by 4 guys who live in 3 different <br />
+              parts of the world: Italy,Uruguay and Canada <br /><br />
               Founded in 2018
             </p>
           </div>

@@ -7,6 +7,7 @@ import notify from './components/toastify.jsx';
 import Home from './components/home';
 import ScrollToTop from './components/scrollToTop';
 import Releases from './components/releases';
+import Youtube from './components/youtube';
 
 
 
@@ -69,6 +70,9 @@ class App extends Component {
                    <li > 
                   <Link to="/releases" className="btn-nav" onClick={ScrollToTop}  > releases </Link>
                    </li>
+                   <li > 
+                  <Link to="/youtube" className="btn-nav" onClick={ScrollToTop}  > youtube </Link>
+                   </li>
               </ul>
               <a href="https://www.facebook.com/noviorbisrec/">
                 <img
@@ -109,6 +113,9 @@ class App extends Component {
             </Route>
             <Route path='/releases'>
             <Releases/>
+            </Route>
+            <Route path='/youtube'>
+            <Youtube/>
             </Route>
           </Switch>
           <footer>

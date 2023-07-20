@@ -43,7 +43,7 @@
   .nav-grid {
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     text-align: center;
     color: white;
@@ -253,7 +253,7 @@
   
   #logo-content-image {
     width: 100%;
-    height: 600px;
+    height: 800px;
   }
   
   /* MEDIA QUERY Mobile -Portrait*/
