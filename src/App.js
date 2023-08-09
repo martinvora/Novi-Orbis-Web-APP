@@ -59,7 +59,7 @@ class App extends Component {
               <Link to="/" onClick={ScrollToTop} >
                 <img src="Images/noheader.png" alt="Logo Novi Orbis"
                 /></Link>
-              <h1 id="nav-tittle" >NOVI ORBIS </h1>
+              <h1 id="nav-tittle" >NOVI ORBIS   </h1>
               <ul className="nav-grid">
                 <li>
                   <Link to="/" className="btn-nav" onClick={ScrollToTop}  > home </Link>
